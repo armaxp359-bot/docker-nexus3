@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexGameMC | سرور ماینکرافت</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+  <a class="navbar-brand" href="index.html">NexGameMC</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="join.html">آموزش اتصال</a></li>
+      <li class="nav-item"><a class="nav-link" href="shop.html">فروشگاه</a></li>
+      <li class="nav-item"><a class="nav-link" href="rules.html">قوانین</a></li>
+      <li class="nav-item"><a class="nav-link" href="news.html">اخبار</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">تماس</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero text-center d-flex align-items-center justify-content-center">
+  <div>
+    <h1 class="display-3 fw-bold hero-title">به سرور NexGameMC خوش آمدید!</h1>
+    <p class="lead hero-text">آی‌پی سرور: <strong>play.nexgamemc.ir</strong></p>
+    <a href="join.html" class="btn btn-danger btn-lg me-2">اتصال به سرور</a>
+    <a href="shop.html" class="btn btn-warning btn-lg">فروشگاه</a>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="features py-5 text-center bg-dark text-white">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4 feature-card">
+        <h3 class="feature-title">Survival</h3>
+        <p class="feature-text">چالش و بقا در دنیای ماینکرافت با دوستان!</p>
+      </div>
+      <div class="col-md-4 feature-card">
+        <h3 class="feature-title">Skyblock</h3>
+        <p class="feature-text">جزیره خود را بساز و منابع را مدیریت کن!</p>
+      </div>
+      <div class="col-md-4 feature-card">
+        <h3 class="feature-title">BedWars</h3>
+        <p class="feature-text">تیم خود را بساز و رقیب‌ها را شکست بده!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white py-3">
+  <p>NexGameMC | Created by xparma</p>
+  <p>Discord: <a href="https://discord.gg/TBhkmvuS4J" class="text-warning">Join</a></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
